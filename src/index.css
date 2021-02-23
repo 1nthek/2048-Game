@@ -5,7 +5,7 @@ body {
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -33,29 +33,29 @@ input {
   -moz-appearance: none;
   appearance: none;
 }
-input[type="text"],
-input[type="email"] {
+input[type='text'],
+input[type='email'] {
   cursor: auto;
   background: #fcfbf9;
   font-weight: normal;
   color: #776e65;
   padding: 0 15px;
 }
-input[type="text"]::-webkit-input-placeholder,
-input[type="email"]::-webkit-input-placeholder {
+input[type='text']::-webkit-input-placeholder,
+input[type='email']::-webkit-input-placeholder {
   color: #9d948c;
 }
-input[type="text"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder {
+input[type='text']::-moz-placeholder,
+input[type='email']::-moz-placeholder {
   color: #9d948c;
 }
-input[type="text"]:-ms-input-placeholder,
-input[type="email"]:-ms-input-placeholder {
+input[type='text']:-ms-input-placeholder,
+input[type='email']:-ms-input-placeholder {
   color: #9d948c;
 }
 
 .heading:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -152,11 +152,11 @@ h1.title {
 }
 
 .score-container:after {
-  content: "Score";
+  content: 'Score';
 }
 
 .best-container:after {
-  content: "Best";
+  content: 'Best';
 }
 
 p {
@@ -304,7 +304,7 @@ hr {
   margin-bottom: 0;
 }
 .grid-row:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -448,13 +448,11 @@ hr {
 }
 .tile.tile-2 .tile-inner {
   background: #eee4da;
-  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0),
-    inset 0 0 0 1px rgba(255, 255, 255, 0);
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-4 .tile-inner {
   background: #eee1c9;
-  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0),
-    inset 0 0 0 1px rgba(255, 255, 255, 0);
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-8 .tile-inner {
   color: #f9f6f2;
@@ -895,7 +893,7 @@ hr {
     margin-bottom: 0;
   }
   .grid-row:after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
   }
@@ -1107,7 +1105,7 @@ hr {
   border-top: 10px solid #bbada0;
   border-right: 7px solid transparent;
   border-left: 7px solid transparent;
-  content: "";
+  content: '';
   bottom: 0px;
   left: 50%;
   margin-left: -7px;
@@ -1120,7 +1118,7 @@ hr {
   line-height: 1;
   font-weight: normal;
   font-size: 15px;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
   text-align: center;
 }
 .btc-donate:hover .address,
@@ -1380,7 +1378,7 @@ hr {
   height: 25px !important;
 }
 .ezmob-footer-close::before {
-  content: "×" !important;
+  content: '×' !important;
   font-size: 26px !important;
 }
 

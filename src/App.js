@@ -1,5 +1,7 @@
+import React from 'react';
+
 function App() {
-  return <div className="container"></div>;
+  return <div className="container" />;
 }
 
 export default App;
